@@ -28,7 +28,7 @@ function useStatus() {
 }
 
 function DataInjector() {
-  const { status, loading, error } = useStatus();
+  const { status, error } = useStatus();
 
   return (
     <div>
